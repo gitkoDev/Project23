@@ -7,26 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922AAF2128C85F92008CD1B6 /* gameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 922AAF2028C85F92008CD1B6 /* gameOver.png */; };
 		925DC1F328C5EA5A002E49D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DC1F228C5EA5A002E49D5 /* AppDelegate.swift */; };
 		925DC1F528C5EA5A002E49D5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 925DC1F428C5EA5A002E49D5 /* GameScene.sks */; };
-		925DC1F728C5EA5A002E49D5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 925DC1F628C5EA5A002E49D5 /* Actions.sks */; };
 		925DC1F928C5EA5A002E49D5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DC1F828C5EA5A002E49D5 /* GameScene.swift */; };
 		925DC1FB28C5EA5A002E49D5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925DC1FA28C5EA5A002E49D5 /* GameViewController.swift */; };
 		925DC1FE28C5EA5A002E49D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925DC1FC28C5EA5A002E49D5 /* Main.storyboard */; };
 		925DC20028C5EA5A002E49D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925DC1FF28C5EA5A002E49D5 /* Assets.xcassets */; };
 		925DC20328C5EA5A002E49D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20128C5EA5A002E49D5 /* LaunchScreen.storyboard */; };
+		925DC21B28C5EB1F002E49D5 /* sliceFuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20A28C5EB1F002E49D5 /* sliceFuse.sks */; };
+		925DC21C28C5EB1F002E49D5 /* sliceLife@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20B28C5EB1F002E49D5 /* sliceLife@2x.png */; };
+		925DC21D28C5EB1F002E49D5 /* sliceBomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20C28C5EB1F002E49D5 /* sliceBomb@2x.png */; };
+		925DC21E28C5EB1F002E49D5 /* sliceLifeGone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20D28C5EB1F002E49D5 /* sliceLifeGone@2x.png */; };
+		925DC21F28C5EB1F002E49D5 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20E28C5EB1F002E49D5 /* spark.png */; };
+		925DC22028C5EB1F002E49D5 /* wrong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC20F28C5EB1F002E49D5 /* wrong.caf */; };
+		925DC22128C5EB1F002E49D5 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21028C5EB1F002E49D5 /* whack.caf */; };
+		925DC22228C5EB1F002E49D5 /* launch.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21128C5EB1F002E49D5 /* launch.caf */; };
+		925DC22328C5EB1F002E49D5 /* explosion.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21228C5EB1F002E49D5 /* explosion.caf */; };
+		925DC22428C5EB1F002E49D5 /* sliceBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21328C5EB1F002E49D5 /* sliceBackground@2x.png */; };
+		925DC22528C5EB1F002E49D5 /* sliceHitEnemy.sks in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21428C5EB1F002E49D5 /* sliceHitEnemy.sks */; };
+		925DC22628C5EB1F002E49D5 /* sliceBombFuse.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21528C5EB1F002E49D5 /* sliceBombFuse.caf */; };
+		925DC22728C5EB1F002E49D5 /* sliceHitBomb.sks in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21628C5EB1F002E49D5 /* sliceHitBomb.sks */; };
+		925DC22828C5EB1F002E49D5 /* penguin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21728C5EB1F002E49D5 /* penguin@2x.png */; };
+		925DC22928C5EB1F002E49D5 /* swoosh3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21828C5EB1F002E49D5 /* swoosh3.caf */; };
+		925DC22A28C5EB1F002E49D5 /* swoosh2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21928C5EB1F002E49D5 /* swoosh2.caf */; };
+		925DC22B28C5EB1F002E49D5 /* swoosh1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 925DC21A28C5EB1F002E49D5 /* swoosh1.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		922AAF2028C85F92008CD1B6 /* gameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameOver.png; sourceTree = "<group>"; };
 		925DC1EF28C5EA5A002E49D5 /* Project23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		925DC1F228C5EA5A002E49D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		925DC1F428C5EA5A002E49D5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		925DC1F628C5EA5A002E49D5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		925DC1F828C5EA5A002E49D5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		925DC1FA28C5EA5A002E49D5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		925DC1FD28C5EA5A002E49D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		925DC1FF28C5EA5A002E49D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		925DC20228C5EA5A002E49D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925DC20A28C5EB1F002E49D5 /* sliceFuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceFuse.sks; sourceTree = "<group>"; };
+		925DC20B28C5EB1F002E49D5 /* sliceLife@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceLife@2x.png"; sourceTree = "<group>"; };
+		925DC20C28C5EB1F002E49D5 /* sliceBomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceBomb@2x.png"; sourceTree = "<group>"; };
+		925DC20D28C5EB1F002E49D5 /* sliceLifeGone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceLifeGone@2x.png"; sourceTree = "<group>"; };
+		925DC20E28C5EB1F002E49D5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		925DC20F28C5EB1F002E49D5 /* wrong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.caf; sourceTree = "<group>"; };
+		925DC21028C5EB1F002E49D5 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		925DC21128C5EB1F002E49D5 /* launch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = launch.caf; sourceTree = "<group>"; };
+		925DC21228C5EB1F002E49D5 /* explosion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = explosion.caf; sourceTree = "<group>"; };
+		925DC21328C5EB1F002E49D5 /* sliceBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliceBackground@2x.png"; sourceTree = "<group>"; };
+		925DC21428C5EB1F002E49D5 /* sliceHitEnemy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitEnemy.sks; sourceTree = "<group>"; };
+		925DC21528C5EB1F002E49D5 /* sliceBombFuse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sliceBombFuse.caf; sourceTree = "<group>"; };
+		925DC21628C5EB1F002E49D5 /* sliceHitBomb.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sliceHitBomb.sks; sourceTree = "<group>"; };
+		925DC21728C5EB1F002E49D5 /* penguin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "penguin@2x.png"; sourceTree = "<group>"; };
+		925DC21828C5EB1F002E49D5 /* swoosh3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh3.caf; sourceTree = "<group>"; };
+		925DC21928C5EB1F002E49D5 /* swoosh2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh2.caf; sourceTree = "<group>"; };
+		925DC21A28C5EB1F002E49D5 /* swoosh1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh1.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +95,39 @@
 			children = (
 				925DC1F228C5EA5A002E49D5 /* AppDelegate.swift */,
 				925DC1F428C5EA5A002E49D5 /* GameScene.sks */,
-				925DC1F628C5EA5A002E49D5 /* Actions.sks */,
 				925DC1F828C5EA5A002E49D5 /* GameScene.swift */,
 				925DC1FA28C5EA5A002E49D5 /* GameViewController.swift */,
 				925DC1FC28C5EA5A002E49D5 /* Main.storyboard */,
 				925DC1FF28C5EA5A002E49D5 /* Assets.xcassets */,
 				925DC20128C5EA5A002E49D5 /* LaunchScreen.storyboard */,
+				925DC20928C5EB1F002E49D5 /* Content */,
 			);
 			path = Project23;
+			sourceTree = "<group>";
+		};
+		925DC20928C5EB1F002E49D5 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				925DC20A28C5EB1F002E49D5 /* sliceFuse.sks */,
+				925DC20B28C5EB1F002E49D5 /* sliceLife@2x.png */,
+				925DC20C28C5EB1F002E49D5 /* sliceBomb@2x.png */,
+				925DC20D28C5EB1F002E49D5 /* sliceLifeGone@2x.png */,
+				925DC20E28C5EB1F002E49D5 /* spark.png */,
+				925DC20F28C5EB1F002E49D5 /* wrong.caf */,
+				925DC21028C5EB1F002E49D5 /* whack.caf */,
+				925DC21128C5EB1F002E49D5 /* launch.caf */,
+				925DC21228C5EB1F002E49D5 /* explosion.caf */,
+				925DC21328C5EB1F002E49D5 /* sliceBackground@2x.png */,
+				925DC21428C5EB1F002E49D5 /* sliceHitEnemy.sks */,
+				925DC21528C5EB1F002E49D5 /* sliceBombFuse.caf */,
+				925DC21628C5EB1F002E49D5 /* sliceHitBomb.sks */,
+				925DC21728C5EB1F002E49D5 /* penguin@2x.png */,
+				925DC21828C5EB1F002E49D5 /* swoosh3.caf */,
+				925DC21928C5EB1F002E49D5 /* swoosh2.caf */,
+				925DC21A28C5EB1F002E49D5 /* swoosh1.caf */,
+				922AAF2028C85F92008CD1B6 /* gameOver.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,11 +188,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925DC22A28C5EB1F002E49D5 /* swoosh2.caf in Resources */,
 				925DC1FE28C5EA5A002E49D5 /* Main.storyboard in Resources */,
+				925DC22828C5EB1F002E49D5 /* penguin@2x.png in Resources */,
+				925DC22228C5EB1F002E49D5 /* launch.caf in Resources */,
+				925DC22928C5EB1F002E49D5 /* swoosh3.caf in Resources */,
+				925DC21F28C5EB1F002E49D5 /* spark.png in Resources */,
+				925DC21C28C5EB1F002E49D5 /* sliceLife@2x.png in Resources */,
+				925DC22328C5EB1F002E49D5 /* explosion.caf in Resources */,
+				925DC21E28C5EB1F002E49D5 /* sliceLifeGone@2x.png in Resources */,
 				925DC1F528C5EA5A002E49D5 /* GameScene.sks in Resources */,
+				925DC21D28C5EB1F002E49D5 /* sliceBomb@2x.png in Resources */,
+				925DC21B28C5EB1F002E49D5 /* sliceFuse.sks in Resources */,
+				925DC22428C5EB1F002E49D5 /* sliceBackground@2x.png in Resources */,
 				925DC20028C5EA5A002E49D5 /* Assets.xcassets in Resources */,
+				925DC22B28C5EB1F002E49D5 /* swoosh1.caf in Resources */,
+				925DC22128C5EB1F002E49D5 /* whack.caf in Resources */,
+				925DC22628C5EB1F002E49D5 /* sliceBombFuse.caf in Resources */,
+				925DC22528C5EB1F002E49D5 /* sliceHitEnemy.sks in Resources */,
+				925DC22028C5EB1F002E49D5 /* wrong.caf in Resources */,
 				925DC20328C5EA5A002E49D5 /* LaunchScreen.storyboard in Resources */,
-				925DC1F728C5EA5A002E49D5 /* Actions.sks in Resources */,
+				925DC22728C5EB1F002E49D5 /* sliceHitBomb.sks in Resources */,
+				922AAF2128C85F92008CD1B6 /* gameOver.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +375,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +386,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -327,7 +403,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +414,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
